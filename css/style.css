@@ -45,6 +45,9 @@ footer {
 }
 
 header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
   background-color: var(--color-surface);
 }
 
@@ -317,6 +320,13 @@ html {
 .filters-form label {
   display: block;
   margin-bottom: var(--space-sm);
+}
+
+.back-to-top {
+  position: fixed;
+  right: var(--space-md);
+  bottom: var(--space-md);
+  z-index: 10;
 }
 
 .filters-form input[type="number"] {

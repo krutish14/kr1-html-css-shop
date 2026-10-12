@@ -71,3 +71,8 @@
 
 ФИО: Артём Медведев  
 Группа: ЭФБО-07-25
+
+
+## Ссылка на опубликованный проект
+
+GitHub Pages: https://krutish14.github.io/kr1-html-css-shop/

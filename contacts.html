@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body id="top">
+  <a class="skip-link" href="#main-content">Перейти к содержанию</a>
   <header class="site-header">
     <div class="site-header__inner">
       <a class="site-header__logo" href="index.html">ShopProject</a>
@@ -16,16 +17,17 @@
         <ul class="site-nav__list">
           <li class="site-nav__item"><a class="site-nav__link" href="index.html">Главная</a></li>
           <li class="site-nav__item"><a class="site-nav__link" href="catalog.html">Каталог</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="product.html">Товар</a></li>
+          <li class="site-nav__item"><a class="site-nav__link" href="order.html">Заявка</a></li>
           <li class="site-nav__item"><a class="site-nav__link site-nav__link--active" href="contacts.html" aria-current="page">Контакты</a></li>
           <li class="site-nav__item"><a class="site-nav__link" href="index.html#advantages">Преимущества</a></li>
           <li class="site-nav__item"><a class="site-nav__link" href="index.html#popular">Популярные товары</a></li>
-          <li class="site-nav__item"><a class="site-nav__link" href="index.html#contacts">Обратная связь</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main>
+  <main id="main-content">
     <nav class="breadcrumbs" aria-label="Хлебные крошки">
       <a class="breadcrumbs__link" href="index.html">Главная</a>
       <span class="breadcrumbs__current">Контакты</span>
@@ -44,14 +46,15 @@
 
     <section class="section" id="feedback">
       <h2 class="section__title">Обратная связь</h2>
-      <p>Для отправки заявки используйте форму в модальном окне на главной странице.</p>
-      <a class="button" href="index.html#contacts">Перейти к форме</a>
+      <p>Для отправки заявки перейдите на страницу заявки.</p>
+      <a class="button button--primary" href="order.html">Перейти к форме заявки</a>
     </section>
   </main>
 
   <footer class="site-footer">
     <p class="site-footer__text">&copy; 2026 Учебный проект. Все права защищены.</p>
     <p class="site-footer__text">Дисциплина: Фронтенд и бэкенд разработка</p>
+    <p class="site-footer__text"><a href="index.html#contacts">Обратная связь</a></p>
   </footer>
 
   <a class="button back-to-top" href="#top">Наверх</a>
